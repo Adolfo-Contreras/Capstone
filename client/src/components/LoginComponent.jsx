@@ -1,5 +1,5 @@
-const { InputLabel, TextField, FormControl, OutlinedInput, IconButton, InputAdornment,Button, Typography,} = require("@mui/material");
-const {Visibility, VisibilityOff} = require("@mui/icons-material")
+import { InputLabel, TextField, FormControl, OutlinedInput, IconButton, InputAdornment,Button, Typography,} from "@mui/material";
+import {Visibility, VisibilityOff} from "@mui/icons-material"
 // const { } = require("")
 import React, { useState } from 'react';
 

@@ -1,5 +1,5 @@
 import { Button, Link} from '@mui/material';
-import NavMenu from '@/components/NavMenu';
+import NavMenu from './NavMenu';
 
 export default function Navbar() {
     return (<>

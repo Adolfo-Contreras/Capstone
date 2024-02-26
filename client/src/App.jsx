@@ -2,21 +2,24 @@
 
 import React from "react";
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import LoginPage from "./pages/Login";
+import Home from "./pages/home";
 
 function App() {
-  const [data, setData] = React.useState(null);
-
-  React.useEffect(() => {
-    fetch("/api")
-      .then((res) => res.json())
-      .then((data) => setData(data.message));
-  }, []);
-
   return (
     <div className="App">
       <header className="App-header">
-        <p>{!data ? "Loading..." : data}</p>
+      <p>hello</p>
       </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={
+            <Home/>
+          }/>
+          <Route path="/login" element={<LoginPage/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
