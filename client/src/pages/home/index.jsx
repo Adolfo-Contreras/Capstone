@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import Navbar from '../../components/NavbarComponent';
+import React from 'react';
 
 
-const Home = ()=>{
+export default function Home(){
     const [data, setData] = React.useState(null);
 
   React.useEffect(() => {
@@ -10,8 +11,9 @@ const Home = ()=>{
       .then((data) => setData(data.message));
   }, []);
   return (
-    <p>{!data ? "Loading..." : data}</p>
+    <main className=' w-screen h-screen'>
+    <Navbar></Navbar>
+    <p className=' text-red-400'>{!data ? "Loading..." : data}</p>
+    </main>
   )
 }
-
-export default Home

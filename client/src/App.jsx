@@ -1,27 +1,23 @@
 // client/src/App.js
-
-import React from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+// import AppRouter from "./Routing";
 import LoginPage from "./pages/Login";
 import Home from "./pages/home";
+import SignupPage from './pages/Signup';
 
-function App() {
+export default function App(){
   return (
     <div className="App">
-      <header className="App-header">
-      <p>hello</p>
+      <header>
       </header>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={
-            <Home/>
-          }/>
-          <Route path="/login" element={<LoginPage/>}/>
+      <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/login" element={<LoginPage></LoginPage>}/>
+          <Route path='/signup' element={<SignupPage></SignupPage>}/>
         </Routes>
       </BrowserRouter>
     </div>
   );
 }
-
-export default App;

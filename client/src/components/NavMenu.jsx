@@ -1,6 +1,6 @@
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import { Button, IconButton, SwipeableDrawer, Link} from '@mui/material';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function NavMenu(){
     const [Drawer, setDrawer] = useState({top:false});
@@ -19,27 +19,18 @@ export default function NavMenu(){
             >
             <main className=' w-full h-full bg-[#adffff] flex flex-col'>
             {/* start of drawer */}
-                 <Link href='/'>
-            <Button variant='text'>Home</Button>
-                 </Link>
-
-                 <Link href='/signup'>
             <Button variant='text'>
-                 signup
+                 <Link href='/'>Home</Link>
             </Button>
-                 </Link>
-
-                <Link href='/something'>
             <Button variant='text'>
-                courses
+                 <Link href='/signup'>signup</Link>
             </Button>
-                </Link>
-
-                <Link href='/profile'>
             <Button variant='text'>
-                profile
+                <Link href='/courses'>courses</Link>
             </Button>
-                </Link>
+            <Button variant='text'>
+                <Link href='/profile'>profile</Link>
+            </Button>
             {/* end of drawer */}
             </main>
             </SwipeableDrawer>

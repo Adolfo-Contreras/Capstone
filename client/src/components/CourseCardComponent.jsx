@@ -1,8 +1,7 @@
-import { Card, CardActions, CardContent, CardHeader, Typography, Button, IconButton } from "@mui/material";
+import { Card, CardActions, CardContent, CardHeader, Typography, Button, IconButton, Link } from "@mui/material";
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import Link from '@mui/material'
 
-export default function CardComponent(){
+export default function CourseCard(){
         // const courseTitle = props.title;
         // const courseDesc = props.description;
         // const courseType = props.subject;
@@ -20,9 +19,9 @@ export default function CardComponent(){
                         <Typography variant="body2">CourseMiniDesc</Typography>
                     </CardContent>
                 <CardActions>
-                                <Link href="#">
-                        <Button variant="text">Course Link</Button>
-                                </Link>
+                        <Link href="#">
+                            <Button variant="text">Course Link</Button>
+                        </Link>
                 </CardActions>
                 </Card>
             </main>

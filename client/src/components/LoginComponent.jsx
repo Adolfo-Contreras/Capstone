@@ -1,7 +1,6 @@
-import { InputLabel, TextField, FormControl, OutlinedInput, IconButton, InputAdornment,Button, Typography,} from "@mui/material";
+import { InputLabel, TextField, FormControl, OutlinedInput, IconButton, InputAdornment,Button,} from "@mui/material";
 import {Visibility, VisibilityOff} from "@mui/icons-material"
-// const { } = require("")
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function Login(){
     const [showPassword, setShowPassword] = useState(false);
@@ -13,7 +12,7 @@ export default function Login(){
     };
     return (<>
     <div className=" w-full flex flex-col justify-center items-center p-4">
-    <Typography variant='h4'>Welcome</Typography>
+    <h1 className=" place-self-center">Welcome</h1>
     <section className="flex flex-col gap-2.5">
         <h3 className="">Signup/Login</h3>
         <TextField id="outlined-basic" label="Enter Email" variant="outlined" color='primary'/>
