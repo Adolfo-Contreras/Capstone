@@ -4,7 +4,7 @@ import CourseCard from '../../components/CourseCardComponent';
 const CoursesPage = ()=>{
 
     return (
-        <main>
+        <main className='w-screen h-screen'>
             <Navbar></Navbar>
             <CourseCard></CourseCard>
         </main>
