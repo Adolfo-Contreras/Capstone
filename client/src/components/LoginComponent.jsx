@@ -14,7 +14,7 @@ export default function Login(){
     <div className=" w-full flex flex-col justify-center items-center p-4">
     <h1 className=" place-self-center">Welcome</h1>
     <section className="flex flex-col gap-2.5">
-        <h3 className="">Signup/Login</h3>
+        <h3 className="">Login</h3>
         <TextField id="outlined-basic" label="Enter Email" variant="outlined" color='primary'/>
         <h3>Password</h3>
         {/* <TextField id="outlined-password-input" label="Enter Password" type="password" autoComplete="current-password"/> */}
@@ -40,7 +40,7 @@ export default function Login(){
         </FormControl>
     </section>
     <section className=' flex h-8 m-3 justify-center items-center'>
-    <Button variant="outlined" color='primary'>Signup/Login</Button>
+    <Button variant="outlined" color='primary'>Login</Button>
     </section>
     </div>
     </>)}
