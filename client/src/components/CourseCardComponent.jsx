@@ -6,7 +6,10 @@ import ExpandCircleDownOutlinedIcon from '@mui/icons-material/ExpandCircleDownOu
 
 const ExpandMore = styled((props) => {
     const { expand, ...other } = props;
-    return <IconButton {...other} />;
+    return (<Tooltip title='Expand Description'>
+    <IconButton {...other} />
+    </Tooltip>
+    );
   })(({ theme, expand }) => ({
     transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
     marginLeft: 'auto',
@@ -41,7 +44,7 @@ export default function CourseCard({title}){
                      subheader="Subject:"
                      action={
                       <section>
-                        <Tooltip title='Course Options'>
+                        <Tooltip title='Course Actions'>
                         <IconButton
                         aria-controls={open ? 'basic-menu' : undefined}
                         aria-haspopup="true"
@@ -67,7 +70,6 @@ export default function CourseCard({title}){
                      }
                     />
                 <CardActions>
-                    <Tooltip title="Expand Description">
                         <ExpandMore
                         expand={expanded}
                         onClick={handleExpandClick}
@@ -75,7 +77,6 @@ export default function CourseCard({title}){
                         aria-label="Show Discription">
                         <ExpandCircleDownOutlinedIcon></ExpandCircleDownOutlinedIcon>
                         </ExpandMore>
-                    </Tooltip>
                 </CardActions>
                 <Collapse in={expanded} timeout='auto' unmountOnExit>
                     <CardContent>
