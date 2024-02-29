@@ -1,28 +1,87 @@
-import { Card, CardActions, CardContent, CardHeader, Typography, Button, IconButton, Link } from "@mui/material";
+import { Card, CardActions, CardContent, CardHeader, Typography, IconButton, Collapse, Tooltip, Menu, MenuItem,  } from "@mui/material";
+import React from 'react';
+import { styled } from '@mui/material/styles';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import ExpandCircleDownOutlinedIcon from '@mui/icons-material/ExpandCircleDownOutlined';
 
-export default function CourseCard(){
-        // const courseTitle = props.title;
-        // const courseDesc = props.description;
-        // const courseType = props.subject;
+const ExpandMore = styled((props) => {
+    const { expand, ...other } = props;
+    return <IconButton {...other} />;
+  })(({ theme, expand }) => ({
+    transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
+    marginLeft: 'auto',
+    transition: theme.transitions.create('transform', {
+      duration: theme.transitions.duration.shortest,
+    }),
+  }));
+
+export default function CourseCard({title}){
+        // const title = props.title;
+        // const description = props.description;
+        // const subject = props.subject;
+//for the Collapsed description
+        const [expanded, setExpanded] = React.useState(false);
+        const handleExpandClick = () => {
+          setExpanded(!expanded);
+        };
+//for the Temp Menu Surface
+        const [anchorEl, setAnchorEl] = React.useState(null);
+        const open = Boolean(anchorEl);
+        const handleClick = (event) => {
+          setAnchorEl(event.currentTarget);
+        };
+        const handleClose = () => {
+          setAnchorEl(null);
+        };
         return (<>
             <main>
                 <Card>
                     <CardHeader
-                     title="CourseTitle" 
-                     subheader="CourseSubject"
+                     title={title} 
+                     subheader="Subject:"
                      action={
-                        <IconButton><MoreVertIcon></MoreVertIcon></IconButton>
+                      <section>
+                        <Tooltip title='Course Options'>
+                        <IconButton
+                        aria-controls={open ? 'basic-menu' : undefined}
+                        aria-haspopup="true"
+                        aria-expanded={open ? 'true' : undefined}
+                        onClick={handleClick} 
+                        >
+                        <MoreVertIcon></MoreVertIcon>
+                        </IconButton>
+                        </Tooltip>
+
+                        <Menu
+                          id="basic-menu"
+                          anchorEl={anchorEl}
+                          open={open}
+                          onClose={handleClose}
+                          MenuListProps={{
+                            'aria-labelledby': 'basic-button',
+                          }}
+                        >
+                          <MenuItem>Hello</MenuItem>
+                        </Menu>
+                      </section>
                      }
                     />
+                <CardActions>
+                    <Tooltip title="Expand Description">
+                        <ExpandMore
+                        expand={expanded}
+                        onClick={handleExpandClick}
+                        aria-expanded={expanded}
+                        aria-label="Show Discription">
+                        <ExpandCircleDownOutlinedIcon></ExpandCircleDownOutlinedIcon>
+                        </ExpandMore>
+                    </Tooltip>
+                </CardActions>
+                <Collapse in={expanded} timeout='auto' unmountOnExit>
                     <CardContent>
                         <Typography variant="body2">CourseMiniDesc</Typography>
                     </CardContent>
-                <CardActions>
-                        <Link href="#">
-                            <Button variant="text">Course Link</Button>
-                        </Link>
-                </CardActions>
+                </Collapse>
                 </Card>
             </main>
         </>)

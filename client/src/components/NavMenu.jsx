@@ -1,5 +1,5 @@
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
-import { Button, IconButton, SwipeableDrawer, Link, ButtonGroup} from '@mui/material';
+import { Button, IconButton, SwipeableDrawer, Link, ButtonGroup, Tooltip} from '@mui/material';
 import { useState } from 'react';
 
 export default function NavMenu(){
@@ -7,10 +7,12 @@ export default function NavMenu(){
     const toggleDrawer = (open)=>{setDrawer({ top: open})}
         return (<>
             <section>
-        <IconButton 
-        aria-label='Open Navigation Menu' 
-        onClick={() => toggleDrawer(true)}
-        ><MenuRoundedIcon/></IconButton>
+                <Tooltip title='Open Navigation'>
+                    <IconButton aria-label='Open Navigation Menu' onClick={() => toggleDrawer(true)}>
+                        <MenuRoundedIcon/>
+                    </IconButton>
+                </Tooltip>
+        
             <SwipeableDrawer 
             anchor='left' 
             open={Drawer.top}
