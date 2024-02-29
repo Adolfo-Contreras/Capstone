@@ -1,5 +1,5 @@
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
-import { Button, IconButton, SwipeableDrawer, Link} from '@mui/material';
+import { Button, IconButton, SwipeableDrawer, Link, ButtonGroup, Tooltip} from '@mui/material';
 import { useState } from 'react';
 
 export default function NavMenu(){
@@ -7,10 +7,12 @@ export default function NavMenu(){
     const toggleDrawer = (open)=>{setDrawer({ top: open})}
         return (<>
             <section>
-        <IconButton 
-        aria-label='Open Navigation Menu' 
-        onClick={() => toggleDrawer(true)}
-        ><MenuRoundedIcon/></IconButton>
+                <Tooltip title='Open Navigation'>
+                    <IconButton aria-label='Open Navigation Menu' onClick={() => toggleDrawer(true)}>
+                        <MenuRoundedIcon/>
+                    </IconButton>
+                </Tooltip>
+        
             <SwipeableDrawer 
             anchor='left' 
             open={Drawer.top}
@@ -19,18 +21,24 @@ export default function NavMenu(){
             >
             <main className=' w-full h-full bg-[#adffff] flex flex-col'>
             {/* start of drawer */}
-            <Button variant='text'>
-                 <Link href='/'>Home</Link>
-            </Button>
-            <Button variant='text'>
-                 <Link href='/signup'>signup</Link>
-            </Button>
-            <Button variant='text'>
-                <Link href='/courses'>courses</Link>
-            </Button>
-            <Button variant='text'>
-                <Link href='/profile'>profile</Link>
-            </Button>
+            <ButtonGroup orientation='vertical' variant='outlined'>
+
+            <Link href='/'>
+                <Button fullWidth>Home</Button>
+            </Link>
+            <Link href='/signup'>
+                <Button fullWidth>Signup</Button>
+             </Link>
+            <Link href='/courses'>
+                <Button fullWidth>Courses</Button>
+            </Link>
+            <Link href='/profile'>
+                <Button fullWidth>Profile</Button>
+            </Link>
+            <Link href='/admin'>
+                <Button fullWidth>Admin</Button>
+            </Link>
+            </ButtonGroup>
             {/* end of drawer */}
             </main>
             </SwipeableDrawer>
