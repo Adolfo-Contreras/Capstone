@@ -5,8 +5,6 @@ import AppRouter from "./Routing";
 export default function App(){
   return (
     <div className="App">
-      <header>
-      </header>
       <BrowserRouter>
       <AppRouter></AppRouter>
       </BrowserRouter>

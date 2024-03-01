@@ -6,12 +6,12 @@ export default function Navbar() {
     <header className=" bg-[#6e315c] w-full h-[8%] flex justify-between items-center">
         <section className='flex items-center justify-between h-full w-1/6'>
             <NavMenu></NavMenu>
-            <Link sx={{textDecoration: 'none'}} href="/login">
+            <Link className='no-underline' href="/login">
                 <Button variant='contained' sx={{color: 'black', backgroundColor: '#B4007A', "&:hover":{backgroundColor:'darkviolet'}}}>Login</Button>
             </Link>
             <div></div>
         </section>
-        <img className='h-2/4 mr-4 ' src='../public/moonFullLogo2.png'></img>
+        <img className='h-2/4 mr-4 ' src='/moonFullLogo2.png'></img>
     </header>
     </>)
 }

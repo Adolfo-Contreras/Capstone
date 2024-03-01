@@ -1,4 +1,4 @@
-import { InputLabel, TextField, FormControl, OutlinedInput, IconButton, InputAdornment,Button,} from "@mui/material";
+import { InputLabel, TextField, FormControl, OutlinedInput, IconButton, InputAdornment,Button, Tooltip,} from "@mui/material";
 import {Visibility, VisibilityOff} from "@mui/icons-material"
 import { useState } from 'react';
 
@@ -19,12 +19,13 @@ export default function Login(){
         <h3>Password</h3>
         {/* <TextField id="outlined-password-input" label="Enter Password" type="password" autoComplete="current-password"/> */}
         <FormControl variant="outlined">
-          <InputLabel htmlFor="outlined-adornment-password">Enter Password</InputLabel>
+          <InputLabel htmlFor="Password">Enter Password</InputLabel>
           <OutlinedInput
-            id="outlined-adornment-password"
+            id="Password"
             type={showPassword ? 'text' : 'password'}
             endAdornment={
               <InputAdornment position="end">
+              <Tooltip title="Toggle Password Visibility">
                 <IconButton
                   aria-label="toggle password visibility"
                   onClick={handleClickShowPassword}
@@ -33,6 +34,7 @@ export default function Login(){
                 >
                   {showPassword ? <VisibilityOff /> : <Visibility />}
                 </IconButton>
+              </Tooltip>
               </InputAdornment>
             }
             label="Enter Password"
