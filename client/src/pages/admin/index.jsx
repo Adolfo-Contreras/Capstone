@@ -4,8 +4,8 @@ import StudentSearchBar from "../../components/StudentSearch";
 
 export default function AdminPage(){
     return (
-        <main className=" w-screen h-screen">
-        <Navbar></Navbar>
+        <main className=" commonParent">
+        <Navbar/>
         <AdminDashboard/>
         <StudentSearchBar/>
         </main>

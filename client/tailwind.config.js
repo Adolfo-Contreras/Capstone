@@ -5,7 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      flexGrow: {
+        2:'2',
+        3:'3',
+        4:'4'
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    function({addUtilities}){
+      const newutils = {
+        '.commonParent':{
+          "@apply w-screen h-screen":'',
+        },
+      };
+      addUtilities(newutils)
+    }],
 }

@@ -6,7 +6,7 @@ export default function NavMenu(){
     const [Drawer, setDrawer] = useState({top:false});
     const toggleDrawer = (open)=>{setDrawer({ top: open})}
         return (<>
-            <section>
+
                 <Tooltip title='Open Navigation'>
                     <IconButton aria-label='Open Navigation Menu' onClick={() => toggleDrawer(true)}>
                         <MenuRoundedIcon/>
@@ -42,6 +42,5 @@ export default function NavMenu(){
             {/* end of drawer */}
             </main>
             </SwipeableDrawer>
-        </section>
         </>)
 }
