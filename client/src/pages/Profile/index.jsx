@@ -1,9 +1,9 @@
 import Navbar from '../../components/NavbarComponent';
 
-const profilePage = () => {
+export default function ProfilePage(){
     return (
-        <>
+        <main className=' commonParent'>
             <Navbar></Navbar>
-        </>
+        </main>
     )
 }

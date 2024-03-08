@@ -3,8 +3,8 @@ import { Button, IconButton, SwipeableDrawer, Link, ButtonGroup, Tooltip} from '
 import { useState } from 'react';
 
 export default function NavMenu(){
-    const [Drawer, setDrawer] = useState({top:false});
-    const toggleDrawer = (open)=>{setDrawer({ top: open})}
+    const [Drawer, setDrawer] = useState({open:false});
+    const toggleDrawer = (open)=>{setDrawer({ open: open})}
         return (<>
 
                 <Tooltip title='Open Navigation'>
@@ -15,7 +15,7 @@ export default function NavMenu(){
         
             <SwipeableDrawer 
             anchor='left' 
-            open={Drawer.top}
+            open={Drawer.open}
             onOpen={()=>toggleDrawer(true)}
             onClose={()=>toggleDrawer(false)}
             >
