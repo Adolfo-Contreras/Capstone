@@ -1,12 +1,37 @@
 import { FormControl, FormHelperText, InputLabel, OutlinedInput,Button, IconButton, InputAdornment } from "@mui/material";
 import { MuiTelInput } from 'mui-tel-input'
 import {Visibility, VisibilityOff} from "@mui/icons-material"
-import { useState } from 'react';
-
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { useNavigate, Link } from "react-router-dom";
 
 export default function SignupComponent() {
-    const [phone, setPhone] = useState()
+    const navigate = useNavigate();
+    const [phone, setPhone] = useState();
+    const [nationalNumber2, setNN] = useState();
     const [showPassword, setShowPassword] = useState(false);
+    const [formData, setFormData] = useState({ 
+        firstName: "",
+        lastName: "",
+        email: "",
+        username: "",
+        password: "",
+        phone: "",
+        address: "",
+    });
+
+    const handleChange = (e) => {
+        // console.log(e.target);
+        // console.log(info);
+        // console.log(info.nationalNumber);
+        // console.log(e.target);
+        // console.log(e.target.value);
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
+    };
   
     const handleClickShowPassword = () => setShowPassword((show) => !show);
   
@@ -14,87 +39,128 @@ export default function SignupComponent() {
       event.preventDefault();
     };
 
-    const handleChange = (event) => {
-        setPhone(event)
+    const handlePhone = (value, info) => {
+        // console.log(value);
+        // console.log(info);
+        // console.log(info.nationalNumber);
+        setPhone(value)
+        setNN(info.nationalNumber)
+        // console.log('val:', value);
+        // console.log('nn:', info.nationalNumber);
+        setFormData({
+            ...formData,
+            phone: info.nationalNumber,
+        });
     }
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        const firstName = e.target.elements.firstName.value;
-        const lastName = e.target.elements.lastName.value;
-        const email = e.target.elements.email.value;
-        const username = e.target.elements.username.value;
-        const password = e.target.elements.password.value;
-        const phone = e.target.elements.phone.value;
-        const address = e.target.elements.address.value;
-        // let form = e.target;
-        // let formData = new FormData(form);
-        // let formDataObj = Object.fromEntries(formData.entries())
-        // console.log(formDataObj);
-        console.log({ firstName, lastName, email, username, password, phone, address });
-        try {
-            fetch('http://localhost:3001/api', {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({
-                    firstName,
-                    lastName,
-                    email,
-                    username,
-                    password, 
-                    phone,
-                    address,
-                }),
-            })
-              .then((res) => res.json())
-              .then((data) => console.log(data))
-              .catch(err => console.error('network error:', err))
-        } catch (err) {
-            console.error(err);
-        }
-        // console.log('form', e.target);
-        // let formJSON = JSON.stringify(formDataObj)
-        // console.log(formDataObj)
-    
+        console.log(formData);
+        axios 
+          .post("http://localhost:3001/api/signup", formData)
+          .then((result) => {
+            console.log(result);
+            navigate("/login");
+          })
+          .catch((err) => console.log(err));
     };
+
+
     return (<>
     <main className="p-2 m-2 h-5/6 flex flex-col justify-center items-center">
         <form onSubmit={handleSubmit}>
             <section className="flex flex-col justify-center items-center gap-6 p-2 mt-4">
                 <FormControl variant="outlined" required fullWidth>
                     <InputLabel htmlFor="email" >Email</InputLabel>
-                    <OutlinedInput id="email" aria-describedby="email_helperText" label="Email" aria-label="Email Input" type="text" name="email" placeholder="yadayada@yolo.com"/>
+                    <OutlinedInput 
+                    id="email" 
+                    aria-describedby="email_helperText" 
+                    label="Email" 
+                    aria-label="Email Input" 
+                    type="text" 
+                    name="email" 
+                    placeholder="yadayada@yolo.com"
+                    value={formData.email}
+                    onChange={handleChange}
+                    />
                     {/* <FormHelperText id="email_helperText">hi</FormHelperText> */}
                 </FormControl>
 
                 <FormControl variant="outlined" required fullWidth>
                     <InputLabel htmlFor="Username" >Username</InputLabel>
-                    <OutlinedInput id="Username" aria-describedby="Username_helperText" label="Username" aria-label="Username Input" type="text" name="username" placeholder="epicgamer69"/>
+                    <OutlinedInput
+                    id="Username" 
+                    aria-describedby="Username_helperText" 
+                    label="Username" 
+                    aria-label="Username Input" 
+                    type="text" 
+                    name="username" 
+                    placeholder="epicgamer69"
+                    value={formData.username}
+                    onChange={handleChange}
+                    />
                     {/* <FormHelperText id="LastN_helperText">hi</FormHelperText> */}
                 </FormControl>
 
                 <FormControl variant="outlined" required fullWidth>
                     <InputLabel htmlFor="firstN" >First Name</InputLabel>
-                    <OutlinedInput id="firstN" aria-describedby="firstN_helperText" label="First Name" aria-label="First Name Input" type="text" name="firstName" placeholder="Adolfo"/>
+                    <OutlinedInput
+                    id="firstN" 
+                    aria-describedby="firstN_helperText" 
+                    label="First Name" 
+                    aria-label="First Name Input" 
+                    type="text" 
+                    name="firstName" 
+                    placeholder="Adolfo"
+                    value={formData.firstName}
+                    onChange={handleChange}
+                    />
                     {/* <FormHelperText id="firstN_helperText">hi</FormHelperText> */}
                 </FormControl>
 
                 <FormControl variant="outlined" required fullWidth>
                     <InputLabel htmlFor="LastN" >Last Name</InputLabel>
-                    <OutlinedInput id="LastN" aria-describedby="LastN_helperText" label="Last Name" aria-label="Last Name Input" type="text" name="lastName" placeholder="Rarted"/>
+                    <OutlinedInput 
+                    id="LastN" 
+                    aria-describedby="LastN_helperText" 
+                    label="Last Name" 
+                    aria-label="Last Name Input" 
+                    type="text" 
+                    name="lastName" 
+                    placeholder="Rarted"
+                    value={formData.lastName}
+                    onChange={handleChange}
+                    />
                     {/* <FormHelperText id="LastN_helperText">hi</FormHelperText> */}
                 </FormControl>
 
                 <FormControl variant="outlined" required fullWidth>
-                    <MuiTelInput className="" label='Phone' aria-describedby="Select_help" required variant="outlined" name="phone" placeholder="123-456-7890" value={phone} onChange={handleChange}></MuiTelInput>
+                    <MuiTelInput 
+                    className="" 
+                    label='Phone' 
+                    aria-describedby="Select_help" 
+                    required variant="outlined" 
+                    name="phone" 
+                    placeholder="+1 123-456-7890" 
+                    value={phone}
+                    onChange={handlePhone}
+                    ></MuiTelInput>
                     <FormHelperText id='Select_help'>Select a Country First by Clicking the Icon in the Text Field Above</FormHelperText>
                 </FormControl>
                 
                 <FormControl variant="outlined" required fullWidth>
                     <InputLabel htmlFor="address" >Address</InputLabel>
-                    <OutlinedInput id="address" aria-describedby="address_helperText" label="Address" aria-label="Address Input" type="text" name="address" placeholder="crispy chicken lane 1200 south"/>
+                    <OutlinedInput 
+                    id="address" 
+                    aria-describedby="address_helperText" 
+                    label="Address" 
+                    aria-label="Address Input" 
+                    type="text" 
+                    name="address" 
+                    placeholder="crispy chicken lane 1200 south"
+                    value={formData.address}
+                    onChange={handleChange}
+                    />
                     {/* <FormHelperText id="email_helperText">Must Be From The United States</FormHelperText> */}
                 </FormControl>
 
@@ -117,13 +183,17 @@ export default function SignupComponent() {
                         }
                         label="Set Password"
                         name="password"
+                        value={formData.password}
+                        onChange={handleChange}
                     />
                 </FormControl>
                 
             </section>
             <section className="flex justify-center items-center m-4">
                 <FormControl >
-                    <Button variant="outlined" type="submit">Submit</Button>
+                    <Link to="/login">
+                        <Button variant="outlined" type="submit">Submit</Button>
+                    </Link>
                 </FormControl>
             </section>
         </form>

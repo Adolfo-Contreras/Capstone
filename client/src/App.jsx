@@ -5,17 +5,19 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import LoginPage from "./pages/Login";
 import Home from "./pages/home";
 import SignupPage from './pages/Signup';
-import { useState, useEffect } from 'react'
+import React, { useEffect, useState} from 'react'
+import { resolveBreakpointValues } from "@mui/system/breakpoints";
 
 
 export default function App(){
-  const [data, setData] = useState(null);
 
-  useEffect(() => {
-    fetch("/api")
-    .then((res) => res.json())
-    .then((data) => setData(data.message));
-  }, []);
+  // const [backendData, setBackendData] = useState([{}])
+
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const result = await fetch
+  //   }
+  // }, [])
 
   return (
     <div className="App">
