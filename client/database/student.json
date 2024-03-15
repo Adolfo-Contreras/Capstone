@@ -1,0 +1,1002 @@
+[
+  {
+    "student_id": 1,
+    "Username": "rsenton0",
+    "first_name": "Reinaldo",
+    "last_name": "Senton",
+    "email": "rsenton0@dailymail.co.uk",
+    "password": "vM5+uCI}EiBO",
+    "phone_number": "275-126-8879",
+    "address": "38 Jay Pass"
+  },
+  {
+    "student_id": 2,
+    "Username": "gsefton1",
+    "first_name": "Gilbert",
+    "last_name": "Sefton",
+    "email": "gsefton1@devhub.com",
+    "password": "qE1?wCcq@_c_X?g",
+    "phone_number": "755-185-5603",
+    "address": "3 Waxwing Court"
+  },
+  {
+    "student_id": 3,
+    "Username": "gbracer2",
+    "first_name": "Garrett",
+    "last_name": "Bracer",
+    "email": "gbracer2@theatlantic.com",
+    "password": "cK3$$vj_U6=N'qL",
+    "phone_number": "403-927-3238",
+    "address": "16467 Myrtle Park"
+  },
+  {
+    "student_id": 4,
+    "Username": "jcumberland3",
+    "first_name": "Jordan",
+    "last_name": "Cumberland",
+    "email": "jcumberland3@squidoo.com",
+    "password": "zO5#M&aF=D?",
+    "phone_number": "375-406-7346",
+    "address": "5 Claremont Hill"
+  },
+  {
+    "student_id": 5,
+    "Username": "ryitzhakof4",
+    "first_name": "Robinson",
+    "last_name": "Yitzhakof",
+    "email": "ryitzhakof4@illinois.edu",
+    "password": "mM5$}30,Ns<\\{`H",
+    "phone_number": "925-894-7457",
+    "address": "96823 Redwing Park"
+  },
+  {
+    "student_id": 6,
+    "Username": "troan5",
+    "first_name": "Tedra",
+    "last_name": "Roan",
+    "email": "troan5@nationalgeographic.com",
+    "password": "kC0,J7X@S",
+    "phone_number": "218-408-5337",
+    "address": "17372 Parkside Circle"
+  },
+  {
+    "student_id": 7,
+    "Username": "aallner6",
+    "first_name": "Alfonso",
+    "last_name": "Allner",
+    "email": "aallner6@wikipedia.org",
+    "password": "zC3/OK3_`y4oBq",
+    "phone_number": "856-902-1477",
+    "address": "85851 Derek Alley"
+  },
+  {
+    "student_id": 8,
+    "Username": "oivanishchev7",
+    "first_name": "Orson",
+    "last_name": "Ivanishchev",
+    "email": "oivanishchev7@furl.net",
+    "password": "kE8,\"g=yZn$3d9X",
+    "phone_number": "338-845-5148",
+    "address": "3 Aberg Center"
+  },
+  {
+    "student_id": 9,
+    "Username": "bjaram8",
+    "first_name": "Blisse",
+    "last_name": "Jaram",
+    "email": "bjaram8@mac.com",
+    "password": "cR7(V$n2w/nkI4Wa",
+    "phone_number": "615-913-7555",
+    "address": "31 Dapin Road"
+  },
+  {
+    "student_id": 10,
+    "Username": "dgonnin9",
+    "first_name": "Devlin",
+    "last_name": "Gonnin",
+    "email": "dgonnin9@paginegialle.it",
+    "password": "rB9,3IdrB9v&\"m",
+    "phone_number": "721-936-1708",
+    "address": "14 Basil Alley"
+  },
+  {
+    "student_id": 11,
+    "Username": "sfraschinia",
+    "first_name": "Saxon",
+    "last_name": "Fraschini",
+    "email": "sfraschinia@nasa.gov",
+    "password": "hG4,h5GI95",
+    "phone_number": "331-159-0225",
+    "address": "967 Roxbury Circle"
+  },
+  {
+    "student_id": 12,
+    "Username": "slarcombeb",
+    "first_name": "Sasha",
+    "last_name": "Larcombe",
+    "email": "slarcombeb@nyu.edu",
+    "password": "kX5.AtoM|+l&",
+    "phone_number": "139-315-7966",
+    "address": "23933 Tennyson Terrace"
+  },
+  {
+    "student_id": 13,
+    "Username": "szorenerc",
+    "first_name": "Stevie",
+    "last_name": "Zorener",
+    "email": "szorenerc@biglobe.ne.jp",
+    "password": "yK9)4nljZj@_(&\"o",
+    "phone_number": "346-298-1551",
+    "address": "26 Arrowood Street"
+  },
+  {
+    "student_id": 14,
+    "Username": "hkrugerd",
+    "first_name": "Harmony",
+    "last_name": "Kruger",
+    "email": "hkrugerd@unicef.org",
+    "password": "mM9$rH?13wd",
+    "phone_number": "670-527-4983",
+    "address": "3513 Cascade Drive"
+  },
+  {
+    "student_id": 15,
+    "Username": "heplatee",
+    "first_name": "Hugues",
+    "last_name": "Eplate",
+    "email": "heplatee@xrea.com",
+    "password": "aG8=v'Nq_~gRE",
+    "phone_number": "196-751-6859",
+    "address": "40 Esker Court"
+  },
+  {
+    "student_id": 16,
+    "Username": "dgrosef",
+    "first_name": "Diannne",
+    "last_name": "Grose",
+    "email": "dgrosef@wp.com",
+    "password": "qR8!?S,zAMcn",
+    "phone_number": "821-923-9760",
+    "address": "2675 Sheridan Drive"
+  },
+  {
+    "student_id": 17,
+    "Username": "svescovinig",
+    "first_name": "Sibylle",
+    "last_name": "Vescovini",
+    "email": "svescovinig@merriam-webster.com",
+    "password": "wF9+zz6v\\8rwjri",
+    "phone_number": "615-934-4845",
+    "address": "951 7th Place"
+  },
+  {
+    "student_id": 18,
+    "Username": "baseeh",
+    "first_name": "Bernadina",
+    "last_name": "Asee",
+    "email": "baseeh@amazon.co.jp",
+    "password": "eU5&R.xWk<{i8{",
+    "phone_number": "392-421-5967",
+    "address": "4 Nobel Center"
+  },
+  {
+    "student_id": 19,
+    "Username": "gfanceti",
+    "first_name": "Glenden",
+    "last_name": "Fancet",
+    "email": "gfanceti@rediff.com",
+    "password": "qJ4\"_vu1G~+f>b",
+    "phone_number": "789-902-5656",
+    "address": "34 La Follette Street"
+  },
+  {
+    "student_id": 20,
+    "Username": "lclaremontj",
+    "first_name": "Lynett",
+    "last_name": "Claremont",
+    "email": "lclaremontj@icio.us",
+    "password": "sO1'&?b#LN)/RU|",
+    "phone_number": "216-990-5478",
+    "address": "1 Michigan Park"
+  },
+  {
+    "student_id": 21,
+    "Username": "klangelayk",
+    "first_name": "Karie",
+    "last_name": "Langelay",
+    "email": "klangelayk@usgs.gov",
+    "password": "uV6\\0&v'QSUNdhg.",
+    "phone_number": "662-834-4832",
+    "address": "4001 Bluestem Court"
+  },
+  {
+    "student_id": 22,
+    "Username": "crydingsl",
+    "first_name": "Carry",
+    "last_name": "Rydings",
+    "email": "crydingsl@ibm.com",
+    "password": "xI3\"=9)g",
+    "phone_number": "970-574-2594",
+    "address": "2107 Nevada Crossing"
+  },
+  {
+    "student_id": 23,
+    "Username": "iingreem",
+    "first_name": "Ingaborg",
+    "last_name": "Ingree",
+    "email": "iingreem@bbb.org",
+    "password": "lI2_mYI7",
+    "phone_number": "790-325-7365",
+    "address": "22202 Mariners Cove Hill"
+  },
+  {
+    "student_id": 24,
+    "Username": "gadolfn",
+    "first_name": "Gay",
+    "last_name": "Adolf",
+    "email": "gadolfn@xinhuanet.com",
+    "password": "kF8%NT,7Q",
+    "phone_number": "510-986-5870",
+    "address": "61772 Nancy Terrace"
+  },
+  {
+    "student_id": 25,
+    "Username": "dcadmano",
+    "first_name": "Dallon",
+    "last_name": "Cadman",
+    "email": "dcadmano@phoca.cz",
+    "password": "yR1,'xW7Zx4!Zgo2",
+    "phone_number": "806-937-7763",
+    "address": "159 Kings Alley"
+  },
+  {
+    "student_id": 26,
+    "Username": "ewybournep",
+    "first_name": "Emelina",
+    "last_name": "Wybourne",
+    "email": "ewybournep@de.vu",
+    "password": "oZ1*tk+=KKDc!z~&",
+    "phone_number": "263-841-7528",
+    "address": "80852 Hoard Trail"
+  },
+  {
+    "student_id": 27,
+    "Username": "hlongshawq",
+    "first_name": "Haskell",
+    "last_name": "Longshaw",
+    "email": "hlongshawq@amazon.co.uk",
+    "password": "pG2)BxclP)kt|g!h",
+    "phone_number": "210-698-7665",
+    "address": "711 Ryan Parkway"
+  },
+  {
+    "student_id": 28,
+    "Username": "tcastelotr",
+    "first_name": "Thaxter",
+    "last_name": "Castelot",
+    "email": "tcastelotr@wordpress.org",
+    "password": "oS4{Co'OLvr",
+    "phone_number": "528-581-1872",
+    "address": "6773 Homewood Circle"
+  },
+  {
+    "student_id": 29,
+    "Username": "rmacmorlands",
+    "first_name": "Rolf",
+    "last_name": "MacMorland",
+    "email": "rmacmorlands@macromedia.com",
+    "password": "pZ3{R}VrW.ZW3R",
+    "phone_number": "593-391-5693",
+    "address": "4 Canary Street"
+  },
+  {
+    "student_id": 30,
+    "Username": "sdranet",
+    "first_name": "Sheppard",
+    "last_name": "Drane",
+    "email": "sdranet@patch.com",
+    "password": "mF2\\vt2T$Oq`L2'",
+    "phone_number": "966-890-9207",
+    "address": "57 Grim Place"
+  },
+  {
+    "student_id": 31,
+    "Username": "rsillitoeu",
+    "first_name": "Rois",
+    "last_name": "Sillitoe",
+    "email": "rsillitoeu@earthlink.net",
+    "password": "yS2}+<8BuJ}k",
+    "phone_number": "824-313-2438",
+    "address": "22 Arizona Place"
+  },
+  {
+    "student_id": 32,
+    "Username": "pheinov",
+    "first_name": "Petey",
+    "last_name": "Heino",
+    "email": "pheinov@geocities.com",
+    "password": "hJ9?\"7_0E7",
+    "phone_number": "897-251-7605",
+    "address": "7845 Prairieview Trail"
+  },
+  {
+    "student_id": 33,
+    "Username": "ssterrew",
+    "first_name": "Starlin",
+    "last_name": "Sterre",
+    "email": "ssterrew@prnewswire.com",
+    "password": "uA0$Dz*6psp?",
+    "phone_number": "256-284-6545",
+    "address": "412 Hanson Lane"
+  },
+  {
+    "student_id": 34,
+    "Username": "sstockmanx",
+    "first_name": "Stirling",
+    "last_name": "Stockman",
+    "email": "sstockmanx@nps.gov",
+    "password": "hF8/}E~y(z",
+    "phone_number": "969-330-3592",
+    "address": "8974 Quincy Drive"
+  },
+  {
+    "student_id": 35,
+    "Username": "lgerrady",
+    "first_name": "Linnie",
+    "last_name": "Gerrad",
+    "email": "lgerrady@cdbaby.com",
+    "password": "oH6&eZbfjbk}",
+    "phone_number": "966-763-4235",
+    "address": "89 Blaine Drive"
+  },
+  {
+    "student_id": 36,
+    "Username": "mdolphinz",
+    "first_name": "Margalo",
+    "last_name": "Dolphin",
+    "email": "mdolphinz@delicious.com",
+    "password": "hQ9}2=?)(D",
+    "phone_number": "463-292-2091",
+    "address": "28358 Hooker Junction"
+  },
+  {
+    "student_id": 37,
+    "Username": "wraphael10",
+    "first_name": "Winne",
+    "last_name": "Raphael",
+    "email": "wraphael10@jimdo.com",
+    "password": "lN6?(AHEiB",
+    "phone_number": "694-742-2665",
+    "address": "6 Melrose Place"
+  },
+  {
+    "student_id": 38,
+    "Username": "swestfield11",
+    "first_name": "Svend",
+    "last_name": "Westfield",
+    "email": "swestfield11@so-net.ne.jp",
+    "password": "sC2<dS'c",
+    "phone_number": "928-938-8685",
+    "address": "5353 Vera Trail"
+  },
+  {
+    "student_id": 39,
+    "Username": "dcanto12",
+    "first_name": "Davin",
+    "last_name": "Canto",
+    "email": "dcanto12@biblegateway.com",
+    "password": "aY7<K!IR",
+    "phone_number": "856-441-7135",
+    "address": "979 Mifflin Place"
+  },
+  {
+    "student_id": 40,
+    "Username": "dshropsheir13",
+    "first_name": "Dee",
+    "last_name": "Shropsheir",
+    "email": "dshropsheir13@xing.com",
+    "password": "fN6!xe(k'llLG=",
+    "phone_number": "909-203-3369",
+    "address": "424 Golden Leaf Center"
+  },
+  {
+    "student_id": 41,
+    "Username": "ktotterdell14",
+    "first_name": "Kincaid",
+    "last_name": "Totterdell",
+    "email": "ktotterdell14@nhs.uk",
+    "password": "sX0+6&lcYn=",
+    "phone_number": "410-839-9727",
+    "address": "52957 Corscot Trail"
+  },
+  {
+    "student_id": 42,
+    "Username": "hleighfield15",
+    "first_name": "Heath",
+    "last_name": "Leighfield",
+    "email": "hleighfield15@comsenz.com",
+    "password": "bG2>Ww.wP",
+    "phone_number": "772-600-4875",
+    "address": "12 David Hill"
+  },
+  {
+    "student_id": 43,
+    "Username": "bfairebrother16",
+    "first_name": "Barby",
+    "last_name": "Fairebrother",
+    "email": "bfairebrother16@infoseek.co.jp",
+    "password": "rJ1%DK#/8Br0",
+    "phone_number": "697-101-8554",
+    "address": "1 Lillian Lane"
+  },
+  {
+    "student_id": 44,
+    "Username": "rmachon17",
+    "first_name": "Rodrigo",
+    "last_name": "Machon",
+    "email": "rmachon17@last.fm",
+    "password": "iO9|)P!0",
+    "phone_number": "354-791-8722",
+    "address": "01 Nobel Pass"
+  },
+  {
+    "student_id": 45,
+    "Username": "dpegrum18",
+    "first_name": "Darwin",
+    "last_name": "Pegrum",
+    "email": "dpegrum18@google.com.hk",
+    "password": "vF8<EO5v\\_jrq2",
+    "phone_number": "952-779-1057",
+    "address": "42 Merchant Road"
+  },
+  {
+    "student_id": 46,
+    "Username": "hstolting19",
+    "first_name": "Hughie",
+    "last_name": "Stolting",
+    "email": "hstolting19@pbs.org",
+    "password": "uP5=(zQM4cK_z\"",
+    "phone_number": "198-511-8438",
+    "address": "75 American Ash Trail"
+  },
+  {
+    "student_id": 47,
+    "Username": "gcruddace1a",
+    "first_name": "Gwen",
+    "last_name": "Cruddace",
+    "email": "gcruddace1a@drupal.org",
+    "password": "qQ7@Br\\j{b",
+    "phone_number": "518-532-8033",
+    "address": "8193 Maryland Point"
+  },
+  {
+    "student_id": 48,
+    "Username": "ibarabich1b",
+    "first_name": "Ilsa",
+    "last_name": "Barabich",
+    "email": "ibarabich1b@nytimes.com",
+    "password": "eA2`S'*>sQ{9JlFp",
+    "phone_number": "463-787-1277",
+    "address": "982 Algoma Terrace"
+  },
+  {
+    "student_id": 49,
+    "Username": "agriggs1c",
+    "first_name": "Artair",
+    "last_name": "Griggs",
+    "email": "agriggs1c@github.io",
+    "password": "oA4'u#Re",
+    "phone_number": "404-751-4423",
+    "address": "07034 Mesta Point"
+  },
+  {
+    "student_id": 50,
+    "Username": "evardon1d",
+    "first_name": "Etan",
+    "last_name": "Vardon",
+    "email": "evardon1d@deviantart.com",
+    "password": "cN4{f<1v4J",
+    "phone_number": "453-613-9939",
+    "address": "17 Heffernan Terrace"
+  },
+  {
+    "student_id": 51,
+    "Username": "nwatkiss1e",
+    "first_name": "Nessa",
+    "last_name": "Watkiss",
+    "email": "nwatkiss1e@economist.com",
+    "password": "sB0*9,P}iwhLw",
+    "phone_number": "142-472-6084",
+    "address": "11 Judy Hill"
+  },
+  {
+    "student_id": 52,
+    "Username": "ldaniely1f",
+    "first_name": "Lorianne",
+    "last_name": "Daniely",
+    "email": "ldaniely1f@usatoday.com",
+    "password": "bV8/<f''A$h\\3?",
+    "phone_number": "444-975-8929",
+    "address": "7292 Killdeer Court"
+  },
+  {
+    "student_id": 53,
+    "Username": "dgeorghiou1g",
+    "first_name": "Darcee",
+    "last_name": "Georghiou",
+    "email": "dgeorghiou1g@zimbio.com",
+    "password": "eJ4)!>j$yg{N=A",
+    "phone_number": "620-215-6375",
+    "address": "392 Fordem Crossing"
+  },
+  {
+    "student_id": 54,
+    "Username": "glohden1h",
+    "first_name": "Griffie",
+    "last_name": "Lohden",
+    "email": "glohden1h@ibm.com",
+    "password": "cZ8_S#TnvIu",
+    "phone_number": "509-426-1117",
+    "address": "39 Shasta Circle"
+  },
+  {
+    "student_id": 55,
+    "Username": "lwoodworth1i",
+    "first_name": "Lynda",
+    "last_name": "Woodworth",
+    "email": "lwoodworth1i@opensource.org",
+    "password": "eH3{%UOU+",
+    "phone_number": "880-452-0062",
+    "address": "53519 Sutherland Drive"
+  },
+  {
+    "student_id": 56,
+    "Username": "bbowditch1j",
+    "first_name": "Bjorn",
+    "last_name": "Bowditch",
+    "email": "bbowditch1j@nifty.com",
+    "password": "hS9#jZl'",
+    "phone_number": "773-770-8897",
+    "address": "2 Moose Park"
+  },
+  {
+    "student_id": 57,
+    "Username": "sstelljes1k",
+    "first_name": "Shea",
+    "last_name": "Stelljes",
+    "email": "sstelljes1k@taobao.com",
+    "password": "jE5$IYcj,Gb=6(\"",
+    "phone_number": "792-892-0788",
+    "address": "26 Harbort Point"
+  },
+  {
+    "student_id": 58,
+    "Username": "rcurphey1l",
+    "first_name": "Reagan",
+    "last_name": "Curphey",
+    "email": "rcurphey1l@cocolog-nifty.com",
+    "password": "uM3*e6~Ef9GGR,+",
+    "phone_number": "202-932-7499",
+    "address": "1972 Golf Course Avenue"
+  },
+  {
+    "student_id": 59,
+    "Username": "mholdforth1m",
+    "first_name": "Matthaeus",
+    "last_name": "Holdforth",
+    "email": "mholdforth1m@devhub.com",
+    "password": "aX4,XjhgnA>#'V/",
+    "phone_number": "560-629-1485",
+    "address": "0 Fulton Court"
+  },
+  {
+    "student_id": 60,
+    "Username": "smasden1n",
+    "first_name": "Sibbie",
+    "last_name": "Masden",
+    "email": "smasden1n@pcworld.com",
+    "password": "bD1&|5+'H$`B",
+    "phone_number": "453-954-6071",
+    "address": "326 Victoria Terrace"
+  },
+  {
+    "student_id": 61,
+    "Username": "acastagneto1o",
+    "first_name": "Antonina",
+    "last_name": "Castagneto",
+    "email": "acastagneto1o@nbcnews.com",
+    "password": "kY2'tEM(",
+    "phone_number": "764-152-8690",
+    "address": "272 Dennis Lane"
+  },
+  {
+    "student_id": 62,
+    "Username": "abullock1p",
+    "first_name": "Ardene",
+    "last_name": "Bullock",
+    "email": "abullock1p@biglobe.ne.jp",
+    "password": "bP0(Rh{0*g+",
+    "phone_number": "901-659-6770",
+    "address": "7135 Shopko Pass"
+  },
+  {
+    "student_id": 63,
+    "Username": "pcatterson1q",
+    "first_name": "Patsy",
+    "last_name": "Catterson",
+    "email": "pcatterson1q@reuters.com",
+    "password": "eC5+D}p$$sn%E}K{",
+    "phone_number": "928-647-3385",
+    "address": "43363 Delladonna Terrace"
+  },
+  {
+    "student_id": 64,
+    "Username": "aerricker1r",
+    "first_name": "Andris",
+    "last_name": "Erricker",
+    "email": "aerricker1r@prweb.com",
+    "password": "qN2\\.wv=H!",
+    "phone_number": "486-706-1705",
+    "address": "1 Steensland Pass"
+  },
+  {
+    "student_id": 65,
+    "Username": "mcowthard1s",
+    "first_name": "Marchelle",
+    "last_name": "Cowthard",
+    "email": "mcowthard1s@cdbaby.com",
+    "password": "mD8'z8uw",
+    "phone_number": "817-861-9716",
+    "address": "2 Annamark Crossing"
+  },
+  {
+    "student_id": 66,
+    "Username": "cpiscopo1t",
+    "first_name": "Clemmy",
+    "last_name": "Piscopo",
+    "email": "cpiscopo1t@dailymotion.com",
+    "password": "aH9)D@3i",
+    "phone_number": "261-956-5289",
+    "address": "87062 Pearson Park"
+  },
+  {
+    "student_id": 67,
+    "Username": "arewcastle1u",
+    "first_name": "Agace",
+    "last_name": "Rewcastle",
+    "email": "arewcastle1u@bizjournals.com",
+    "password": "yB8%pB$445*aDE5p",
+    "phone_number": "561-549-2262",
+    "address": "063 Granby Road"
+  },
+  {
+    "student_id": 68,
+    "Username": "tchapelhow1v",
+    "first_name": "Tedmund",
+    "last_name": "Chapelhow",
+    "email": "tchapelhow1v@jiathis.com",
+    "password": "pK1\\D=zt7GT{a|W",
+    "phone_number": "676-148-1738",
+    "address": "772 New Castle Lane"
+  },
+  {
+    "student_id": 69,
+    "Username": "elambie1w",
+    "first_name": "Etan",
+    "last_name": "Lambie",
+    "email": "elambie1w@vistaprint.com",
+    "password": "cX8\\PV11gY>",
+    "phone_number": "892-208-7901",
+    "address": "24 Iowa Place"
+  },
+  {
+    "student_id": 70,
+    "Username": "fwiltsher1x",
+    "first_name": "Flynn",
+    "last_name": "Wiltsher",
+    "email": "fwiltsher1x@nature.com",
+    "password": "xS3.Xj$Y",
+    "phone_number": "674-325-0188",
+    "address": "5396 Carey Alley"
+  },
+  {
+    "student_id": 71,
+    "Username": "dlismore1y",
+    "first_name": "Daria",
+    "last_name": "Lismore",
+    "email": "dlismore1y@mysql.com",
+    "password": "gQ7|Dw#@09i23t,",
+    "phone_number": "574-483-4701",
+    "address": "7 Butterfield Trail"
+  },
+  {
+    "student_id": 72,
+    "Username": "nseater1z",
+    "first_name": "Noemi",
+    "last_name": "Seater",
+    "email": "nseater1z@youtu.be",
+    "password": "xQ7(|z\"Gm",
+    "phone_number": "725-872-9495",
+    "address": "7 8th Park"
+  },
+  {
+    "student_id": 73,
+    "Username": "cgoddard20",
+    "first_name": "Cornelia",
+    "last_name": "Goddard",
+    "email": "cgoddard20@tripadvisor.com",
+    "password": "qF1\\~sl%Ng>UV",
+    "phone_number": "471-418-0945",
+    "address": "42 Truax Alley"
+  },
+  {
+    "student_id": 74,
+    "Username": "elattka21",
+    "first_name": "Eirena",
+    "last_name": "Lattka",
+    "email": "elattka21@facebook.com",
+    "password": "fQ7\\`5jfk",
+    "phone_number": "333-816-3817",
+    "address": "0649 Starling Court"
+  },
+  {
+    "student_id": 75,
+    "Username": "kmoran22",
+    "first_name": "Kizzie",
+    "last_name": "Moran",
+    "email": "kmoran22@google.com.br",
+    "password": "jQ4=hx\\z2Q#G",
+    "phone_number": "368-411-8973",
+    "address": "633 Farmco Way"
+  },
+  {
+    "student_id": 76,
+    "Username": "nnoyce23",
+    "first_name": "Nelson",
+    "last_name": "Noyce",
+    "email": "nnoyce23@fastcompany.com",
+    "password": "lS9>BPn#",
+    "phone_number": "749-176-6471",
+    "address": "8195 Beilfuss Court"
+  },
+  {
+    "student_id": 77,
+    "Username": "croyan24",
+    "first_name": "Connor",
+    "last_name": "Royan",
+    "email": "croyan24@livejournal.com",
+    "password": "bM8<X%kI+Q11kS",
+    "phone_number": "931-874-9916",
+    "address": "0 Forest Run Junction"
+  },
+  {
+    "student_id": 78,
+    "Username": "sleeson25",
+    "first_name": "Sharline",
+    "last_name": "Leeson",
+    "email": "sleeson25@tumblr.com",
+    "password": "oD0\\AM@.1}SZy",
+    "phone_number": "915-497-7462",
+    "address": "98327 Continental Circle"
+  },
+  {
+    "student_id": 79,
+    "Username": "etythe26",
+    "first_name": "Elita",
+    "last_name": "Tythe",
+    "email": "etythe26@sphinn.com",
+    "password": "jZ9>Yt$0/CHrW8",
+    "phone_number": "122-399-3252",
+    "address": "304 Gale Junction"
+  },
+  {
+    "student_id": 80,
+    "Username": "edevere27",
+    "first_name": "Elysha",
+    "last_name": "De Vere",
+    "email": "edevere27@wikispaces.com",
+    "password": "sK9~!m6\"Tt9O",
+    "phone_number": "949-287-5572",
+    "address": "416 Burrows Way"
+  },
+  {
+    "student_id": 81,
+    "Username": "jniccolls28",
+    "first_name": "Jamie",
+    "last_name": "Niccolls",
+    "email": "jniccolls28@dailymail.co.uk",
+    "password": "oG8_2Vvyf{(W9\\9",
+    "phone_number": "385-295-3119",
+    "address": "2 Kensington Alley"
+  },
+  {
+    "student_id": 82,
+    "Username": "mklinck29",
+    "first_name": "Muriel",
+    "last_name": "Klinck",
+    "email": "mklinck29@soundcloud.com",
+    "password": "rQ3**)i<Z",
+    "phone_number": "408-566-2705",
+    "address": "7641 Fisk Lane"
+  },
+  {
+    "student_id": 83,
+    "Username": "tschelle2a",
+    "first_name": "Tracey",
+    "last_name": "Schelle",
+    "email": "tschelle2a@woothemes.com",
+    "password": "fM9}qI{D",
+    "phone_number": "333-677-1027",
+    "address": "221 Pine View Place"
+  },
+  {
+    "student_id": 84,
+    "Username": "jhegg2b",
+    "first_name": "Joe",
+    "last_name": "Hegg",
+    "email": "jhegg2b@printfriendly.com",
+    "password": "pS4}AC4b}k6Gp(9.",
+    "phone_number": "390-837-7718",
+    "address": "56804 Reindahl Way"
+  },
+  {
+    "student_id": 85,
+    "Username": "dbetteridge2c",
+    "first_name": "David",
+    "last_name": "Betteridge",
+    "email": "dbetteridge2c@wiley.com",
+    "password": "dE8>=E_\\23*N'",
+    "phone_number": "864-873-1416",
+    "address": "8154 Farmco Avenue"
+  },
+  {
+    "student_id": 86,
+    "Username": "mwaryk2d",
+    "first_name": "Miguela",
+    "last_name": "Waryk",
+    "email": "mwaryk2d@gnu.org",
+    "password": "pJ3_OU#P&m~ju2i`",
+    "phone_number": "302-885-5886",
+    "address": "7283 Garrison Center"
+  },
+  {
+    "student_id": 87,
+    "Username": "ctorfin2e",
+    "first_name": "Claudetta",
+    "last_name": "Torfin",
+    "email": "ctorfin2e@ucsd.edu",
+    "password": "iF3$_X)RhxV\"",
+    "phone_number": "585-111-7949",
+    "address": "42234 Mandrake Plaza"
+  },
+  {
+    "student_id": 88,
+    "Username": "nwanjek2f",
+    "first_name": "Neddie",
+    "last_name": "Wanjek",
+    "email": "nwanjek2f@nydailynews.com",
+    "password": "zQ1<tm!#0WatyWm",
+    "phone_number": "967-808-0135",
+    "address": "9528 Red Cloud Point"
+  },
+  {
+    "student_id": 89,
+    "Username": "dcredland2g",
+    "first_name": "Derwin",
+    "last_name": "Credland",
+    "email": "dcredland2g@wp.com",
+    "password": "vA9!QAV!Y!5gNh2n",
+    "phone_number": "983-214-7902",
+    "address": "39924 Donald Terrace"
+  },
+  {
+    "student_id": 90,
+    "Username": "wmallinar2h",
+    "first_name": "Ward",
+    "last_name": "Mallinar",
+    "email": "wmallinar2h@icq.com",
+    "password": "dA1{p@>/YBKYB`",
+    "phone_number": "127-220-6298",
+    "address": "9302 Sycamore Crossing"
+  },
+  {
+    "student_id": 91,
+    "Username": "ridle2i",
+    "first_name": "Reggi",
+    "last_name": "Idle",
+    "email": "ridle2i@over-blog.com",
+    "password": "yJ9%ic|,ZQn*w,%",
+    "phone_number": "673-196-2057",
+    "address": "5114 Lerdahl Way"
+  },
+  {
+    "student_id": 92,
+    "Username": "sormistone2j",
+    "first_name": "Samantha",
+    "last_name": "Ormistone",
+    "email": "sormistone2j@mapquest.com",
+    "password": "cU9$)vg<$2gN",
+    "phone_number": "254-696-8368",
+    "address": "614 Anzinger Way"
+  },
+  {
+    "student_id": 93,
+    "Username": "lharsum2k",
+    "first_name": "Leonidas",
+    "last_name": "Harsum",
+    "email": "lharsum2k@senate.gov",
+    "password": "xE3\"JbkiTJ",
+    "phone_number": "256-433-8786",
+    "address": "6482 Havey Circle"
+  },
+  {
+    "student_id": 94,
+    "Username": "gkamiyama2l",
+    "first_name": "Gradey",
+    "last_name": "Kamiyama",
+    "email": "gkamiyama2l@hatena.ne.jp",
+    "password": "tT8'rohd",
+    "phone_number": "635-449-0137",
+    "address": "247 Longview Pass"
+  },
+  {
+    "student_id": 95,
+    "Username": "hbarbier2m",
+    "first_name": "Hubie",
+    "last_name": "Barbier",
+    "email": "hbarbier2m@princeton.edu",
+    "password": "nI4+5WJz",
+    "phone_number": "927-912-0746",
+    "address": "24 Forster Parkway"
+  },
+  {
+    "student_id": 96,
+    "Username": "mbeston2n",
+    "first_name": "Michaella",
+    "last_name": "Beston",
+    "email": "mbeston2n@imageshack.us",
+    "password": "rJ0\"*0dCd<Ku*",
+    "phone_number": "580-460-3928",
+    "address": "10 Northfield Way"
+  },
+  {
+    "student_id": 97,
+    "Username": "ctompkinson2o",
+    "first_name": "Cathy",
+    "last_name": "Tompkinson",
+    "email": "ctompkinson2o@weibo.com",
+    "password": "bO3\"hA#sPm",
+    "phone_number": "879-733-2894",
+    "address": "64828 Oxford Way"
+  },
+  {
+    "student_id": 98,
+    "Username": "kcapinetti2p",
+    "first_name": "Katharyn",
+    "last_name": "Capinetti",
+    "email": "kcapinetti2p@amazon.de",
+    "password": "bF3_td5T`yok/ye",
+    "phone_number": "935-152-9197",
+    "address": "5719 Loomis Circle"
+  },
+  {
+    "student_id": 99,
+    "Username": "bstudholme2q",
+    "first_name": "Barrie",
+    "last_name": "Studholme",
+    "email": "bstudholme2q@princeton.edu",
+    "password": "mT2#\"!D@`%tMY*n",
+    "phone_number": "997-118-5555",
+    "address": "641 Kim Junction"
+  },
+  {
+    "student_id": 100,
+    "Username": "eavis2r",
+    "first_name": "Emilia",
+    "last_name": "Avis",
+    "email": "eavis2r@nationalgeographic.com",
+    "password": "sN7{Crfm)4P",
+    "phone_number": "440-435-1289",
+    "address": "2 Vidon Center"
+  }
+]

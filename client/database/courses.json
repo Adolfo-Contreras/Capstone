@@ -1,0 +1,222 @@
+[
+  {
+    "string_id": "CSCI-1001",
+    "title": "Introduction to Computer Science",
+    "description": "This course will introduce students to the fundamental concepts behind computers and computer programming. Topics covered include basic programming logic, algorithm development, computer architecture, and software engineering.",
+    "schedule": "MWF 9-10",
+    "classroom_number": "LAB-123",
+    "maximum_capacity": 2,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2001",
+    "title": "Data Structures",
+    "description": "This course will cover the basics of data structures, algorithms, and data manipulation. Topics covered include linked lists, stacks, queues, trees, and hash tables. Students will also learn algorithms for sorting and searching data.",
+    "schedule": "TTH 10-11",
+    "classroom_number": "LAB-456",
+    "maximum_capacity": 30,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2003",
+    "title": "Computer Architecture",
+    "description": "This course will provide an overview of the components and design of modern computer systems. Topics covered include assembly language, memory, CPU, and input/output devices. Students will learn how to design and implement basic computer architectures.",
+    "schedule": "MWF 8-9",
+    "classroom_number": "LAB-789",
+    "maximum_capacity": 20,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2005",
+    "title": "Advanced Algorithms",
+    "description": "This course will cover advanced algorithms and techniques for problem solving. Topics covered include graph theory, dynamic programming, and machine learning. Students will also learn how to analyze algorithms for efficiency and accuracy.",
+    "schedule": "MWF 9-10",
+    "classroom_number": "LAB-1011",
+    "maximum_capacity": 30,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2007",
+    "title": "Networking & Security",
+    "description": "This course introduces basic networking concepts and the underlying principles of network security. Topics include network topologies, protocols, and methods of network security including encryption and authentication. Additionally, the course covers network intrusion detection and prevention, network management and diagnostics, and network security policies.",
+    "schedule": "MWF 10-11",
+    "classroom_number": "LAB-1213",
+    "maximum_capacity": 30,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2009",
+    "title": "Object-Oriented Programming",
+    "description": "This course provides an introduction to the fundamentals of object-oriented programming. The course covers the basics of object-oriented programming, including classes and objects, inheritance, polymorphism, exception handling, and data structures. The course also covers the fundamentals of graphical user interface (GUI) programming using a popular object-oriented programming language, such as Java or C++.",
+    "schedule": "TTH 9-10",
+    "classroom_number": "LAB-1415",
+    "maximum_capacity": 25,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2011",
+    "title": "Database Design & Management",
+    "description": "This course provides an introduction to relational database design and management. Topics covered include database architecture, query languages, data modeling, normalization, database security, and database administration. The course also covers various tools and techniques for designing and managing databases, such as SQL, Oracle, and Access.",
+    "schedule": "MWF 1-2",
+    "classroom_number": "LAB-1617",
+    "maximum_capacity": 30,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2013",
+    "title": "Software Engineering",
+    "description": "This course provides an introduction to the fundamentals of software engineering. Topics covered include software development processes, requirements engineering, software design, testing, and maintenance. The course also covers various tools and techniques for software engineering, such as software project management, version control, refactoring, and software metrics. Students will have the opportunity to apply software engineering principles in the development of a software project.",
+    "schedule": "TTH 1-2",
+    "classroom_number": "LAB-1819",
+    "maximum_capacity": 30,
+    "credit_hours": 4,
+    "tuition_cost": 1200
+  },
+  {
+    "string_id": "CSCI-2015",
+    "title": "Operating Systems",
+    "description": "This course will provide an overview of operating systems and their components. Topics covered will include processes, threads, memory management, file systems, and virtual memory. The course will also cover advanced topics such as distributed systems, real-time systems, and security.",
+    "schedule": "MWF 9-10",
+    "classroom_number": "LAB-2021",
+    "maximum_capacity": 15,
+    "credit_hours": 4,
+    "tuition_cost": 1200
+  },
+  {
+    "string_id": "CSCI-2121",
+    "title": "Computer Graphics",
+    "description": "This course will cover the fundamentals of computer graphics, including 2D and 3D graphics algorithms and techniques. Topics discussed may include interactive 3D graphics, 3D rendering, texture mapping, lighting, and shading.",
+    "schedule": "MWF 9-10",
+    "classroom_number": "LAB-2223",
+    "maximum_capacity": 13,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2101",
+    "title": "Software Testing & Verification",
+    "description": "This course will provide an overview of software testing and verification techniques. Topics discussed may include software design and architecture, test planning, testing strategies, debugging, and documentation. The course will also cover topics such as reliability, safety, security, usability, and maintainability.",
+    "schedule": "TH 8-9",
+    "classroom_number": "LAB-2425",
+    "maximum_capacity": 15,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2201",
+    "title": "Compiler Design",
+    "description": "Compiler Design is a course that introduces students to the fundamental concepts and principles of building a compiler. Topics covered include language parsing, lexical analysis, code generation, optimization, and error handling. This course also covers the development of a compiler from a high-level language to a low-level language, and techniques for optimization and code generation.",
+    "schedule": "MWF 11-12",
+    "classroom_number": "LAB-2627",
+    "maximum_capacity": 13,
+    "credit_hours": 4,
+    "tuition_cost": 1200
+  },
+  {
+    "string_id": "CSCI-2301",
+    "title": "Artificial Intelligence",
+    "description": "Artificial Intelligence is a course that introduces students to the field of artificial intelligence. Topics covered include search algorithms, knowledge representation, reasoning, decision-making, and machine learning. This course also covers the development of intelligent agents and their use in problem solving.",
+    "schedule": "MWF 9-10",
+    "classroom_number": "LAB-2829",
+    "maximum_capacity": 30,
+    "credit_hours": 4,
+    "tuition_cost": 1200
+  },
+  {
+    "string_id": "CSCI-2401",
+    "title": "Computer Vision",
+    "description": "Computer Vision is a course that introduces students to the field of computer vision. Topics covered include image processing, object recognition, and 3D reconstruction. This course also covers the development of computer vision systems, their application in robotics, and their use in autonomous navigation.",
+    "schedule": "MWF 9-10",
+    "classroom_number": "LAB-3031",
+    "maximum_capacity": 30,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2501",
+    "title": "Systems Programming",
+    "description": "This course covers the fundamentals of computer systems programming, with an emphasis on writing efficient, robust, and maintainable code. Topics include memory management, data structures, algorithms, system calls, I/O, data compression, language bindings, and debugging. Students will gain a deep understanding of the inner workings of computer systems and develop the skills to write powerful, reliable code.",
+    "schedule": "TTH 11-12",
+    "classroom_number": "LAB-3233",
+    "maximum_capacity": 25,
+    "credit_hours": 4,
+    "tuition_cost": 1200
+  },
+  {
+    "string_id": "CSCI-2601",
+    "title": "Machine Learning",
+    "description": "This course provides an introduction to machine learning, covering a variety of topics including supervised learning, unsupervised learning, reinforcement learning, and deep learning. Students will learn how to apply machine learning algorithms to real-world problems and develop the skills to evaluate the effectiveness of various models.",
+    "schedule": "TTH 9-10",
+    "classroom_number": "LAB-3435",
+    "maximum_capacity": 30,
+    "credit_hours": 4,
+    "tuition_cost": 1200
+  },
+  {
+    "string_id": "CSCI-2701",
+    "title": "Parallel Computing",
+    "description": "This course covers the fundamentals of parallel computing, with an emphasis on multi-core architectures. Topics include threading, communication, synchronization, data structures, and optimization. Students will gain a deep understanding of how to utilize multiple cores to speed up computations and develop the skills to write efficient, scalable code.",
+    "schedule": "MWF 10-11",
+    "classroom_number": "LAB-3905",
+    "maximum_capacity": 30,
+    "credit_hours": 4,
+    "tuition_cost": 1200
+  },
+  {
+    "string_id": "ISYS-1001",
+    "title": "Introduction to Information Systems",
+    "description": "This course introduces students to the basics of Information Systems, including their components and the processes used to manage them. Students will learn about computer hardware and software, different types of networks, and the use of data for decision making. Topics include system planning, system development, data modeling, and user interface design.",
+    "schedule": "MWF 2-3",
+    "classroom_number": "LAB-3031",
+    "maximum_capacity": 30,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "ISYS-1003",
+    "title": "Computer Networking",
+    "description": "This course explores the fundamentals of computer networking, including both wired and wireless systems. Topics include network design, architecture, protocols, and topologies. Students will learn about LANs, WANs, and the Internet, as well as security considerations when networking.",
+    "schedule": "MWF 9-10",
+    "classroom_number": "LAB-3233",
+    "maximum_capacity": 15,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "ISYS-2000",
+    "title": "Database Design and Management",
+    "description": "This course covers the concepts and principles of database design and management. Students will learn how to create and manage databases using Structured Query Language (SQL). Topics include entity-relationship modeling, normalization, data integrity, and database security.",
+    "schedule": "MWF 9-10",
+    "classroom_number": "LAB-3435",
+    "maximum_capacity": 13,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2300",
+    "title": "Web Design and Development",
+    "description": "This course provides a comprehensive overview of the concepts, principles, and techniques used to create effective web designs. The course covers topics such as web page layout and design, navigation, user interface design, multimedia, scripting, and web standards. Students will learn how to create visually appealing webpages that are optimized for the web. The course will also discuss the importance of accessibility and usability in web design.",
+    "schedule": "TTH 2-3",
+    "classroom_number": "LAB-3905",
+    "maximum_capacity": 15,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  },
+  {
+    "string_id": "CSCI-2421",
+    "title": "Systems Analysis and Design",
+    "description": "This course provides an introduction to systems analysis and design (SA&D) techniques and tools. It covers topics such as requirements gathering, system design, prototyping, testing, implementation, and maintenance. Students will learn the fundamentals of SA&D such as project planning, data modeling, process modeling, and system architecture. They will also gain practical experience in the use of software development tools and techniques. Additionally, the course will discuss best practices related to the development of robust, maintainable, and secure systems.",
+    "schedule": "MWF 8-9",
+    "classroom_number": "LAB-3031",
+    "maximum_capacity": 30,
+    "credit_hours": 3,
+    "tuition_cost": 900
+  }
+]
