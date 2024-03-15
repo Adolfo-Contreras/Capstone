@@ -16,12 +16,12 @@ export default function UserInfoComponent(){
                         <Typography variant="h4">User Info</Typography>
                     </section>
                     <Stack>
+                        <UserInputs InputFor='Username' isDisabled={isDisabled} val='epicgamer127'/>
+                        <UserInputs InputFor='Email' isDisabled={isDisabled} val='coolguyjim@gmail,com'/>
+                        <UserInputs InputFor='Password' isDisabled={isDisabled} password={isDisabled} val='cooljim125'/>
                         <UserInputs InputFor='Name' isDisabled={isDisabled} val='Jim'/>
-                        <UserInputs InputFor='Username' isDisabled={isDisabled} val='Jim'/>
-                        <UserInputs InputFor='Email' isDisabled={isDisabled} val='Jim'/>
-                        <UserInputs InputFor='Email' isDisabled={isDisabled} val='Jim'/>
-                        <UserInputs InputFor='password' isDisabled={isDisabled} password={isDisabled} val='Jim'/>
-                        <UserInputs InputFor='Name' isDisabled={isDisabled} val='Jim'/>
+                        <UserInputs InputFor='Phone' isDisabled={isDisabled} val='+1 123 456 7890'/>
+                        <UserInputs InputFor='Address' isDisabled={isDisabled} val='cripsy chicken lane 1200 north'/>
                     </Stack>
                     <Button variant="outlined" onClick={handleEdit}>Edit Info</Button>
                 </Paper>
