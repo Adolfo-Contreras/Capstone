@@ -1,6 +1,6 @@
-import Navbar from '../../components/Navbar';
-import ProfileDashboard from '../../components/ProfileDashboardComponent';
-import UserInfoComponent from '../../components/UserInfo';
+import Navbar from '../../components/Nav/Navbar';
+import ProfileDashboard from '../../components/profile/ProfileDashboardComponent';
+import UserInfoComponent from '../../components/profile/UserInfo';
 
 export default function ProfilePage(){
     return (

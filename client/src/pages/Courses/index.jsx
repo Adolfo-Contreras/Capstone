@@ -1,7 +1,7 @@
-import Navbar from '../../components/Navbar';
-import CourseCard from '../../components/CourseCard';
-import CourseSearch from '../../components/CoursesSearchbar';
-import data from '../../../database/csvjson.json'
+import Navbar from '../../components/Nav/Navbar';
+import CourseCard from '../../components/Course/CourseCard';
+import CourseSearch from '../../components/Course/CoursesSearchbar';
+import data from '../../../database/courses.json'
 import { useState } from 'react';
 import { useSearch } from '../../context/SearchContext';
 import { Typography } from '@mui/material';

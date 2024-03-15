@@ -1,5 +1,5 @@
 import Login from '../../components/LoginForm';
-import Navbar from '../../components/Navbar'
+import Navbar from '../../components/Nav/Navbar';
 
 const LoginPage = ()=>{
     return(

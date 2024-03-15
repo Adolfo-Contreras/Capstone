@@ -6,16 +6,16 @@ export default function ProfileDashboard() {
             <Table>
                 <TableHead>
                     <TableRow>
-                        <TableCell>Total Tuition</TableCell>
-                        <TableCell>Total Credit Hours</TableCell>
-                        <TableCell>Total Courses</TableCell>
+                        <TableCell className="text-center">Total Tuition</TableCell>
+                        <TableCell className="text-center">Total Credit Hours</TableCell>
+                        <TableCell className="text-center">Total Courses</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
                     <TableRow>
-                        <TableCell>$900</TableCell>
-                        <TableCell>3.5HRS</TableCell>
-                        <TableCell>1</TableCell>
+                        <TableCell className="text-center">$900</TableCell>
+                        <TableCell className="text-center">3.5HRS</TableCell>
+                        <TableCell className="text-center">1</TableCell>
                     </TableRow>
                 </TableBody>
             </Table>
