@@ -17,7 +17,6 @@ export default function Login(){
         <h3 className="">Login</h3>
         <TextField id="outlined-basic" label="Enter Email" variant="outlined" color='primary'/>
         <h3>Password</h3>
-        {/* <TextField id="outlined-password-input" label="Enter Password" type="password" autoComplete="current-password"/> */}
         <FormControl variant="outlined">
           <InputLabel htmlFor="Password">Enter Password</InputLabel>
           <OutlinedInput

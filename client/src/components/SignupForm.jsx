@@ -29,7 +29,7 @@ export default function SignupComponent() {
             {/* phone input */}
 
             <FormControl>
-            <MuiTelInput className="" label='Phone' aria-describedby="Select_help" required variant="outlined" value={phone} onChange={handleChange}></MuiTelInput>
+            <MuiTelInput label='Phone' aria-describedby="Select_help" aria-label="Phone Number Input" required variant="outlined" value={phone} onChange={handleChange}></MuiTelInput>
             <FormHelperText id='Select_help'>Select a Country First by Clicking the Icon in the Text Field Above</FormHelperText>
             </FormControl>
             
