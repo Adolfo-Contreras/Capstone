@@ -19,19 +19,6 @@ export default function SignupComponent() {
         phone: "",
         address: "",
     });
-
-    const handleChange = (e) => {
-        // console.log(e.target);
-        // console.log(info);
-        // console.log(info.nationalNumber);
-        // console.log(e.target);
-        // console.log(e.target.value);
-        const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value,
-        });
-    };
   
     const handleClickShowPassword = () => setShowPassword((show) => !show);
   
@@ -39,21 +26,23 @@ export default function SignupComponent() {
       event.preventDefault();
     };
 
-    const handlePhone = (value, info) => {
-        // console.log(value);
-        // console.log(info);
-        // console.log(info.nationalNumber);
-        setPhone(value)
-        setNN(info.nationalNumber)
-        // console.log('val:', value);
-        // console.log('nn:', info.nationalNumber);
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
+    }
+
+    const handlePhone = (event, info) => {
+        setPhone(event)
         setFormData({
             ...formData,
             phone: info.nationalNumber,
         });
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(formData);
         axios 
