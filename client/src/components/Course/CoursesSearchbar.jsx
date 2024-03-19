@@ -9,7 +9,6 @@ export default function CourseSearch({checkQuery}) {
         checkQuery()
         setSearchTerm(event.target.value.toLowerCase())
     } 
-       
     return (
         <section className="my-4 mx-1 flex">
             <FormControl>

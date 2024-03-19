@@ -11,6 +11,9 @@ export default {
         3:'3',
         4:'4'
       },
+      colors:{
+        'example':'#3f3f1c'
+      }
     },
   },
   plugins: [

@@ -58,9 +58,9 @@ export default function SignupComponent() {
             <section className="flex flex-col justify-center items-center gap-6 p-2 mt-4">
                 <FormControl variant="outlined" required fullWidth>
                     <InputLabel htmlFor="email" >Email</InputLabel>
-                    <OutlinedInput 
+                     <OutlinedInput 
+                   aria-describedby="email_helperText" 
                     id="email" 
-                    aria-describedby="email_helperText" 
                     label="Email" 
                     aria-label="Email Input" 
                     type="text" 
@@ -68,8 +68,8 @@ export default function SignupComponent() {
                     placeholder="yadayada@yolo.com"
                     value={formData.email} 
                     onChange={handleChange}
-                    />
-                    {/* <FormHelperText id="email_helperText">hi</FormHelperText> */}
+                 />
+                       {/* <FormHelperText id="email_helperText">hi</FormHelperText> */}
                 </FormControl>
 
                 <FormControl variant="outlined" required fullWidth>

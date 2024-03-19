@@ -7,16 +7,17 @@ import { useSearch } from '../../context/SearchContext';
 import { Typography } from '@mui/material';
 
 export default function CoursesPage(){
-    const [isValidQuery, setIsValidQuery] = useState(null);
+    const [isValidQuery, setIsValidQuery] = useState(true);
     const {searchTerm} = useSearch();
     const filteredData = data.filter(item =>
         item.title.toLowerCase().includes(searchTerm) ||
         item.string_id.toLowerCase().includes(searchTerm)
     );
     const checkQuery = ()=>{
-        if (filteredData.length != 0) {
-            setIsValidQuery(true)
-        }else{setIsValidQuery(false)}
+        while (filteredData.length == 0) {
+            return setIsValidQuery(false)
+        }
+        return setIsValidQuery(true)
       }    
     return (
         <main className='commonParent pb-4'>
@@ -28,7 +29,7 @@ export default function CoursesPage(){
                 filteredData.map(item =>(
                 <CourseCard key={item.string_id} data={item}></CourseCard>
             ))) : (
-                <section>
+                <section className=''>
                     <Typography variant='body2'>Sorry! That is not a valid query!</Typography>
                 </section>
                     )}
